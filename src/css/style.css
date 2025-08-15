@@ -114,3 +114,23 @@ h4:hover {
 .attribution__link:visited {
   color: var(--Purple-h4);
 }
+
+/* under 660px */
+@media (max-width: 41.25em) {
+  main {
+    max-width: 40rem;
+  }
+
+  header h1 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+  }
+
+  body {
+    font-size: 1.4rem;
+    background-image: url('/src/image/background-pattern-mobile.svg');
+  }
+}
