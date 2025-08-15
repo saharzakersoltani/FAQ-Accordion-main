@@ -2,7 +2,7 @@
 
 This project is a solution to the FAQ Accordion challenge from Frontend Mentor. The goal was to create an accessible and responsive accordion component that displays and hides answers when questions are clicked
 
-[Live Demo](https://forkify-zakersoltani.netlify.app/)
+[Live Demo](https://faq-zakersoltani.netlify.app/)
 
 ---
 
