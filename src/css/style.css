@@ -37,6 +37,7 @@ main {
   padding: 3rem;
   background-color: var(--white);
   border-radius: 2rem;
+  margin-bottom: 5rem;
 }
 
 header {
@@ -48,6 +49,7 @@ header {
 
 header h1 {
   font-size: 3.6rem;
+  font-weight: 700;
 }
 
 button {
@@ -71,6 +73,7 @@ h4 {
   padding-top: 1rem;
   padding-bottom: 2rem;
   font-size: 1.8rem;
+  font-weight: 600;
 }
 
 h4:hover {
@@ -79,19 +82,35 @@ h4:hover {
   transition: all 0.5s;
 }
 
-li {
-  margin-bottom: 2.4rem;
+.border {
+  margin: 2.4rem 0;
   border-bottom: solid 3px var(--Purple-100);
   list-style: none;
 }
 
-li:last-child {
-  margin-bottom: 0 !important;
-  border-bottom: none !important;
+/* -------------- */
+.display {
+  padding-bottom: 2.8rem;
 }
 
-p {
+.display.hide {
   color: var(--Purple-600);
-  padding-bottom: 2.8rem;
   font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.hide {
+  height: 0;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.attribution {
+  text-align: center;
+  color: var(--Purple-950);
+}
+
+.attribution__link:link,
+.attribution__link:visited {
+  color: var(--Purple-h4);
 }

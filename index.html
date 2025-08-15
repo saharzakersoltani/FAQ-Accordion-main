@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&text display=swap"
       rel="stylesheet"
     />
 
     <link href="src/css/style.css" rel="stylesheet" />
+    <script defer src="src/js/script.js"></script>
   </head>
   <body>
     <main>
@@ -23,52 +24,72 @@
         <h1>FAQs</h1>
       </header>
 
-      <ul>
-        <li>
-          <div class="first__section">
-            <h4>What is Frontend Mentor, and how will it help me?</h4>
-            <button>
-              <img src="src/image/icon-plus.svg" alt="plus icon" />
-            </button>
-          </div>
-          <p>
-            Frontend Mentor offers realistic coding challenges to help
-            developers improve their frontend coding skills with projects in
-            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
-            for portfolio building.
-          </p>
-        </li>
+      <div class="accordion border">
+        <div class="first__section">
+          <h4>What is Frontend Mentor, and how will it help me?</h4>
+          <button>
+            <img src="src/image/icon-plus.svg" alt="plus icon" />
+          </button>
+        </div>
 
-        <li>
-          <div class="first__section">
-            <h4>Is Frontend Mentor free?</h4>
-            <button>
-              <img src="src/image/icon-plus.svg" alt="plus icon" />
-            </button>
-          </div>
-          <!-- <p>&Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nostrum excepturi vel quibusdam laborum cumque earum, ipsam saepe nobis sequi, quas eum labore ratione illo enim debitis rem? Sequi, accusantium.</p> -->
-        </li>
+        <p class="display hide">
+          Frontend Mentor offers realistic coding challenges to help developers
+          improve their frontend coding skills with projects in HTML, CSS, and
+          JavaScript. It's suitable for all levels and ideal for portfolio
+          building.
+        </p>
+      </div>
 
-        <li>
-          <div class="first__section">
-            <h4>Can i use Frontend Mentor projects in my portfolio?</h4>
-            <button>
-              <img src="src/image/icon-plus.svg" alt="plus icon" />
-            </button>
-          </div>
-          <!-- <p>&Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nostrum excepturi vel quibusdam laborum cumque earum, ipsam saepe nobis sequi, quas eum labore ratione illo enim debitis rem? Sequi, accusantium.</p> -->
-        </li>
+      <div class="accordion border">
+        <div class="first__section">
+          <h4>Is Frontend Mentor free?</h4>
+          <button>
+            <img src="src/image/icon-plus.svg" alt="plus icon" />
+          </button>
+        </div>
 
-        <li>
-          <div class="first__section">
-            <h4>How can i get help if i'm stuck on challenge?</h4>
-            <button>
-              <img src="src/image/icon-plus.svg" alt="plus icon" />
-            </button>
-          </div>
-          <!-- <p>&Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nostrum excepturi vel quibusdam laborum cumque earum, ipsam saepe nobis sequi, quas eum labore ratione illo enim debitis rem? Sequi, accusantium.</p> -->
-        </li>
-      </ul>
+        <p class="display hide">
+          &Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nostrum
+          excepturi vel quibusdam laborum cumque earum, ipsam saepe nobis sequi,
+          quas eum labore ratione illo enim debitis rem? Sequi, accusantium.
+        </p>
+      </div>
+
+      <div class="accordion border">
+        <div class="first__section">
+          <h4>Can i use Frontend Mentor projects in my portfolio?</h4>
+          <button>
+            <img src="src/image/icon-plus.svg" alt="plus icon" />
+          </button>
+        </div>
+
+        <p class="display hide">
+          &Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nostrum
+          excepturi vel quibusdam laborum cumque earum, ipsam saepe nobis sequi,
+          quas eum labore ratione illo enim debitis rem? Sequi, accusantium.
+        </p>
+      </div>
+
+      <div class="accordion">
+        <div class="first__section">
+          <h4>How can i get help if i'm stuck on challenge?</h4>
+          <button>
+            <img src="src/image/icon-plus.svg" alt="plus icon" />
+          </button>
+        </div>
+
+        <p class="display hide">
+          &Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste nostrum
+          excepturi vel quibusdam laborum cumque earum, ipsam saepe nobis sequi,
+          quas eum labore ratione illo enim debitis rem? Sequi, accusantium.
+        </p>
+      </div>
     </main>
+    <div class="attribution">
+      Challenge by
+      <a class="attribution__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a  class="attribution__link" href=https://github.com/saharzakersoltani">Sahar Zaker Soltani</a>.
+    </div>
   </body>
 </html>
